@@ -21,7 +21,7 @@ struct SingleValueReceiver: Decodable {
 struct MultiValueReceiver: Decodable {
     @OptionalDecoded var signals: [Signal]?
 }
-`
+```
 
 ## Scenarios
 
